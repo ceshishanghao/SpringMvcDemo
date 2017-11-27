@@ -12,7 +12,7 @@ public class HelloWorldController {
     @RequestMapping(value="/index")
     public ModelAndView index(){
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("message", "Hello World! pc 超人");
+        modelAndView.addObject("message", "Hello World! pc 超人 就是那么厉害");
         modelAndView.setViewName("index");
         return modelAndView;
     }
